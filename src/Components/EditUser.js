@@ -12,7 +12,7 @@ const EditUser = ({ user, setUser }) => {
   const { id } = useParams();
   const history = useHistory();
 
-  const selectedUser = user.find((per) => per.id === id);
+ // const selectedUser = user.find((per) => per.id === id);
 
   //
   const updateUser = () => {
