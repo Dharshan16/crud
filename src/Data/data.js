@@ -1,0 +1,51 @@
+export const data = [
+  {
+    id: "100",
+    name: "Dharshan",
+    batch: "B43WD",
+    email: "dharshan@gmail.com",
+    experience: 2,
+  },
+  {
+    id: "101",
+    name: "Abinesh",
+    batch: "B43WD",
+    email: "abinesh@gmail.com",
+    experience: 1,
+  },
+  {
+    id: "102",
+    name: "Gokul",
+    batch: "B43WD",
+    email: "gokuls@gmail.com",
+    experience: 1,
+  },
+  {
+    id: "103",
+    name: "Sriram",
+    batch: "B43WD",
+    email: "sriram@gmail.com",
+    experience: 3,
+  },
+  {
+    id: "104",
+    name: "Vishnu",
+    batch: "B43WD",
+    email: "vishnuvp@gmail.com",
+    experience: 2,
+  },
+  {
+    id: "105",
+    name: "Sanjay",
+    batch: "B43WD",
+    email: "sanjayr@gmail.com",
+    experience: 1,
+  },
+  {
+    id: "106",
+    name: "Tanushree",
+    batch: "B43WD",
+    email: "tanushreee@gmail.com",
+    experience: 1,
+  },
+];
