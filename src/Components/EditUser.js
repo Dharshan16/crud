@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { useHistory, useParams } from "react-router-dom";
 import BaseApp from "../Core/Base";
 
@@ -13,14 +13,6 @@ const EditUser = ({ user, setUser }) => {
   const history = useHistory();
 
   const selectedUser = user.find((per) => per.id === id);
-
-  useEffect(() => {
-    setIdx(selectedUser.id);
-    setName(selectedUser.name);
-    setEmail(selectedUser.email);
-    setExperience(selectedUser.experience);
-    setBatch(selectedUser.batch);
-  }, []);
 
   //
   const updateUser = () => {
